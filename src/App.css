@@ -1,0 +1,20 @@
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgba(109,109,109);
+  --mainLightGrey: rgba(172,172,172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;  
+  --lG: lightgreen
+}
+.themeColors {
+  color: black;
+  color: #343a40;
+  color: rgb(228, 158, 158);
+  color:  rgb(0, 130, 102);
+  color:  rgba(172,172,172);
+  color: white;
+  color: rgba(109,109,109);
+}
+.container:not(:first-child) {
+  min-height: calc(100vh - 260px);
+}
