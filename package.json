@@ -2,7 +2,7 @@
   "name": "01-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://makarovks320.github.io/SocialNetwork/",
+  "homepage": "https://makarovks320.github.io/SocialNetworkDemo/",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
