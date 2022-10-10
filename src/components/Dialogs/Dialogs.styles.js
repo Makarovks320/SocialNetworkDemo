@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 const Wrapper = styled.div`
 {
   padding: 5px;
@@ -9,15 +10,15 @@ const Wrapper = styled.div`
   grid-template-areas: "";
   grid-gap: 10px;
 
-  color: ${(props)=>props.styles.hoverLink};
+  color: ${(props) => props.styles.hoverLink};
 
   border-radius: 10px;
-  background-color: ${(props)=>props.styles.mainBG};
-  border: 2px solid ${(props)=>props.styles.mainBorder};
+  background-color: ${(props) => props.styles.mainBG};
+  border: 2px solid ${(props) => props.styles.mainBorder};
 }
 a {
   text-decoration: none;
-  color: ${(props)=>props.styles.mainLink};
+  color: ${(props) => props.styles.mainLink};
 }
 `
 export default Wrapper;
