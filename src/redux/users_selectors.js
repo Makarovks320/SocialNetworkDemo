@@ -1,4 +1,3 @@
-
 export const getUsers = (state) => state.usersPage.users
 
 export const getTotalUsersCount = (state) => state.usersPage.totalUsersCount
