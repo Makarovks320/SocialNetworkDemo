@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const AsideNavBar = styled.div`
 .nav {
-background-color: ${(props) => props.styles.mainBG};
-color: ${(props) => props.styles.mainLink};
+background-color: ${(props)=>props.styles.mainBG};
+color: ${(props)=>props.styles.mainLink};
 border-radius: 10px;
-border: 2px solid ${(props) => props.styles.mainBorder};
+border: 2px solid ${(props)=>props.styles.mainBorder};
 margin-bottom: 10px;
 }
 .item {
@@ -14,7 +14,7 @@ margin-bottom: 10px;
   border-radius: 5px;
 }
 .item:hover {
-  color: ${(props) => props.styles.hoverLink};
+  color: ${(props)=>props.styles.hoverLink};
 }
 .list {
   padding-left: 0px;
@@ -27,9 +27,9 @@ li {
 a {
   display: block;
   text-decoration: none;
-  color: ${(props) => props.styles.mainLink};
+  color: ${(props)=>props.styles.mainLink};
 }
 .activeLink {
-  color: ${(props) => props.styles.checkedLink};
+  color: ${(props)=>props.styles.checkedLink};
 }
 `

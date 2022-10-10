@@ -7,8 +7,8 @@ const StyledWrapper = styled.div`
 {
   margin: 10px;
   padding: 10px;
-  background-color: ${(props) => props.styles.mainBG};
-  border: 2px solid ${(props) => props.styles.mainBorder};
+  background-color: ${(props)=>props.styles.mainBG};
+  border: 2px solid ${(props)=>props.styles.mainBorder};
   border-radius: 10px;
 }
 .info {

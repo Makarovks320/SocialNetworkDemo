@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const Status = styled.span`
-  cursor: ${(props) => props.isOwner && 'pointer'};
-  opacity: ${(props) => props.status ? 1 : .5};
+  cursor: ${(props)=>props.isOwner && 'pointer'};
+  opacity: ${(props)=>props.status ? 1 : .5};
 `
 export const ProfileMenu = styled.div`
   .updatePhoto,
@@ -12,7 +12,7 @@ export const ProfileMenu = styled.div`
     display: block;
     margin-right: 10px;
     position: relative;
-    color: ${(props) => props.styles.mainText};
+    color: ${(props)=>props.styles.mainText};
     text-align: right;
     text-align: center;
 }
@@ -26,7 +26,7 @@ export const ProfileMenu = styled.div`
 }
 .updatePhoto:hover,
 .setProfile:hover {
-  color: ${(props) => props.styles.hoverLink};
+  color: ${(props)=>props.styles.hoverLink};
 }
 `
 
@@ -37,35 +37,35 @@ export const PersonalData = styled.div`
   min-height: 100px;
   margin-bottom: 10px;
   padding: 10px;
-  border: 2px solid ${(props) => props.styles.mainBorder};
+  border: 2px solid ${(props)=>props.styles.mainBorder};
   border-radius: 10px;
-  background-color: ${(props) => props.styles.mainBG};
-  color: ${(props) => props.styles.hoverLink};
+  background-color: ${(props)=>props.styles.mainBG};
+  color: ${(props)=>props.styles.hoverLink};
 }
 .avatar {
-  border: 2px solid ${(props) => props.styles.mainBorder};
+  border: 2px solid ${(props)=>props.styles.mainBorder};
   margin-right: 10px;
 }
 .profileDataContainer {
   flex-grow: 1;
 }
 .table {
-  color: ${(props) => props.styles.hoverLink};
+  color: ${(props)=>props.styles.hoverLink};
 }
 .table caption {
   caption-side: top;
-  color: ${(props) => props.styles.hoverLink};
+  color: ${(props)=>props.styles.hoverLink};
 }
 .table td:first-child {
- color: ${(props) => props.styles.mainLink};
+ color: ${(props)=>props.styles.mainLink};
 }
 .table td, 
 .table th {
     padding: .5rem;
 }
 .card {
-  background-color: ${(props) => props.styles.mainBG};
-  color: ${(props) => props.styles.hoverLink};
+  background-color: ${(props)=>props.styles.mainBG};
+  color: ${(props)=>props.styles.hoverLink};
   border: 0;
   border-radius: 0;
 }
@@ -75,7 +75,7 @@ padding: 5px 10px;
 .card-header:hover {
   border-radius: 0;
   cursor: pointer;
-  background-color: ${(props) => props.styles.subBG};
+  background-color: ${(props)=>props.styles.subBG};
 }
 `
 export const PersonalDataForm = styled.div`
